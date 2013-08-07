@@ -1,0 +1,23 @@
+# Why is Node.js important
+
+Node Explained
+http://www.youtube.com/watch?v=L0pjVcIsU6A
+
+
+## Theory
+
+### I/O Latency
+
+L1 |	3 cycles
+L2	|	14 cycles
+RAM	|	250 cycles
+Disk	|	41,000,000
+Network	|	240,000,000
+
+cache memory is a high speed memory kept in between processor and RAM to increase the data execution speed. It is kept near to the processor.
+There are different levels of cache.
+L1-cache is the fastest cache and it usually comes within the processor chip itself. 
+The L1 cache typically ranges in size from 8KB to 64KB and uses the high-speed SRAM (static RAM) instead of the slower and cheaper DRAM (dynamic RAM) used for main memory.
+The Intel Celeron processor uses two separate 16KB L1 caches, one for the instructions and one for the data.
+
+L2 cache comes between L1 and RAM(processor-L1-L2-RAM) and is bigger than the primary cache (typically 64KB to 4MB). 
