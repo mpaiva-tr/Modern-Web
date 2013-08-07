@@ -139,6 +139,7 @@ More on how to use Grunt later.
 
 ## 9. SSH access
 
+https://help.github.com/articles/generating-ssh-keys
 
 
 
