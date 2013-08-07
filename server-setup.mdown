@@ -39,6 +39,10 @@ Open `Terminal` and enter the following command:
 -
 
 	Enter System Password (your login password) 
+-
+
+	After installation is complete, be sure to run the 'brew doctor' command
+	
 
 ## 3. Git - Source Control
 
