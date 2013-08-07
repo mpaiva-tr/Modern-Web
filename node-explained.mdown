@@ -8,11 +8,11 @@ http://www.youtube.com/watch?v=L0pjVcIsU6A
 
 ### I/O Latency
 
-L1 |	3 cycles
-L2	|	14 cycles
-RAM	|	250 cycles
-Disk	|	41,000,000
-Network	|	240,000,000
+| L1 |	3 cycles
+| L2	|	14 cycles
+| RAM	|	250 cycles
+| Disk	|	41,000,000
+| Network	|	240,000,000
 
 cache memory is a high speed memory kept in between processor and RAM to increase the data execution speed. It is kept near to the processor.
 There are different levels of cache.
