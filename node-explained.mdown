@@ -39,4 +39,34 @@ Source: Ryan Dahl, creator of node, presented 2008-Nov-11.
 
 Note: Network is slowest.
 
+### But what makes Node fast?
 
+- Node is fast by design;
+- Never blocking on I/O means less threads;
+- This means the program handles the queue for requests, not the OS.
+
+With traditional programing languages, requests are sent to the operating system (OS), which dictates WHEN to execute each request. This is called "threading".
+
+Node is different because it doesn't rely on getting a response from the OS to execute what needs to be done WHILE the OS is handling the previous request. This is known by the Node Event Loop.
+
+### The Platform
+
+The node platform is consisted of three layers:
+
+1. Node Standard Library - APIs, modules, handles process streams and buffers;
+2. Node Bindings - http, sockets, file system
+3. External Resources - not written by Node:
+
+Google's V8 
+- V8 is written in C++ and translates JavaScript into machine code to talk to the hardware system [(watch video on V8)](http://www.youtube.com/watch?v=hWhMKalEicY) 
+- Your computer's processor can read machine code directly. Without this step, your browser would have to translate each piece of JavaScript into machine code every time you run a script on a Web page.
+- V8 runs on Windows (XP or newer), Mac OS X (10.5 or newer), and Linux systems that use IA-32, x64, or ARM processors.
+V8 can run standalone, or can be embedded into any C++ application.
+- V8 has better garbage collection, which means that when it finishes using memory for one task, it can better reclaim that memory for another task.
+- V8 is open source and can be leveraged by any application.
+
+What can V8 do?
+SConf2012 - Vyacheslav Egorov [(watch video)](http://blip.tv/jsconf/jsconf2012-vyacheslav-egorov-6141593)
+
+Tim Caswell: Node powered desktop apps
+[watch video](http://www.youtube.com/watch?v=6XqD8h_C3ZQ)
