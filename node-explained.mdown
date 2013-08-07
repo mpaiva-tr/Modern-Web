@@ -22,11 +22,10 @@ The Intel Celeron processor uses two separate 16KB L1 caches, one for the instru
 
 L2 cache comes between L1 and RAM(processor-L1-L2-RAM) and is bigger than the primary cache (typically 64KB to 4MB). 
 
-| Left align | Right align | Center align |
-|:-----------|------------:|:------------:|
-| This       |        This |     This     |
-| column     |      column |    column    |
-| will       |        will |     will     |
-| be         |          be |      be      |
-| left       |       right |    center    |
-| aligned    |     aligned |   aligned    |
+| memory type |      cycles | description |
+|:------------|------------:|:------------|
+| L1 Cache    |           3 | fastest - 8~64KB - memory located within the processor chip |
+| L2 Cache    |          14 | fast - 64KB~4MB - memory located L1 and RAM |
+| RAM         |         250 | fast - GB ranges - the known stacked memory boards that are added to the motherboard |
+| Disk        |  41,000,000 | hard disks, solid state, usb drives |
+| Network     | 240,000,000 | cloud storage |
