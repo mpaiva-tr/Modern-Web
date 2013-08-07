@@ -1,5 +1,4 @@
-# Setting up a new WEBDEV Machine from scratch
-
+# Setting up your dev-machine for the Modern Web
 
 ## Use-Case #1
 A new web developer joins the team and need to get up and running.
@@ -8,10 +7,7 @@ A new web developer joins the team and need to get up and running.
 I need to start fresh, my machine is a mess, I have so many applications installed and I really need to 
 
 
-
-
 # Preparing a MAC OSX machine
-
 
 ## 1. Install Xcode
 
@@ -117,19 +113,32 @@ By installing this CSS Preprocessor framewor now, will allow Yeoman - the scaffo
 Yeoman (or simply "Yo") is more than just a tool. It's a workflow; a collection of tools and best practices working in harmony to make developing for the web even better.
 Our workflow is comprised of three tools for improving your productivity and satisfaction when building a web app: yo (the scaffolding tool), grunt (the build tool) and bower (the package management - already installed!).
 
-- Yo scaffolds out a new application, writing your Grunt configuration and pulling in relevant Grunt tasks that you might need for your build.
-- Grunt is used to build, preview and test your project, thanks to help from tasks curated by the Yeoman team and grunt-contrib.
-- Bower is used for dependency management, so that you no longer have to manually download and manage your scripts.
-
-
+- **Yo** scaffolds out a new application, writing your Grunt configuration and pulling in relevant Grunt tasks that you might need for your build.
+- **Grunt** - is used to build, preview and test your project, thanks to help from tasks curated by the Yeoman team and grunt-contrib.
+- **Bower** - once more, is used for dependency management, so that you no longer have to manually download and manage your scripts.
 
 Then install the required tools globally by running:
 
 	npm install -g yo
 
-This will install Grunt automatically.
+This will install **Grunt** automatically.
 
 ## 8. Grunt
+
+If you've been following this guide, Grunt is already installed via Yeoman. Let's describe Grunt a bit further:
+
+Grunt is a JavaScript Task Runner. 
+
+### Why use a task runner? 
+In one word: automation. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes. After you've configured it, a task runner can do most of that mundane work for you—and your team—with basically zero effort.
+
+### Why use Grunt?
+The Grunt ecosystem is huge and it's growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort. If someone hasn't already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze.
+
+More on how to use Grunt later.
+
+## 9. SSH access
+
 
 
 
